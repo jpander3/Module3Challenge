@@ -8,7 +8,6 @@ import os
 budget_data_csv = os.path.join("PyBank", "Resources", "budget_data.csv")
 
 #Set variables to gather pertinent information
-
 months_list = []
 profits_losses_list = []
 total_months = 0
