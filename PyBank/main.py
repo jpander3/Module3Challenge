@@ -90,6 +90,6 @@ with open(budget_data_output, 'w') as txtfile:
     txtfile.write(f"Total Months: {total_months}\n" )
     txtfile.write(f"Total: ${total_money:,}\n")
     txtfile.write(f"Average Change: ${avg_change:,}\n")
-    txtfile.write(f"Greatest Increase in Profits: (${greatest_inc:,})\n")
-    txtfile.write(f"Greatest Decrease in Profits: (${greatest_dec:,})\n")
+    txtfile.write(f"Greatest Increase in Profits: {greatest_inc_month} (${greatest_inc:,})\n")
+    txtfile.write(f"Greatest Decrease in Profits: {greatest_dec_month} (${greatest_dec:,})\n")
    
